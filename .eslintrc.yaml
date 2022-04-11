@@ -1,0 +1,11 @@
+root: true
+
+plugins:
+  - import
+
+parserOptions:
+  sourceType: module
+  ecmaVersion: latest
+
+rules:
+  import/no-unused-modules: [2, {unusedExports: true}]
